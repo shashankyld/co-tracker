@@ -124,7 +124,7 @@ We strongly recommend installing both PyTorch and TorchVision with CUDA support,
 ### Install a Development Version
 
 ```bash
-git clone https://github.com/facebookresearch/co-tracker
+git clone git@github.com:shashankyld/co-tracker.git
 cd co-tracker
 pip install -e .
 pip install matplotlib flow_vis tqdm tensorboard
