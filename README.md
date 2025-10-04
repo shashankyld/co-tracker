@@ -128,6 +128,7 @@ git clone git@github.com:shashankyld/co-tracker.git
 cd co-tracker
 conda create -n pointtrackslam python=3.10 -y
 conda activate pointtrackslam
+# NVIDIA driver (550.144.03)
 conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia -y
 pip install -e .
 pip install matplotlib flow_vis tqdm tensorboard
